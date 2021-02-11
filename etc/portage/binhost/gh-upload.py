@@ -1,7 +1,7 @@
 #!/bin/env python3
 # -*- coding: utf-8 -*-
 
-# Copyright 2020 by generik at spreequalle.de. All rights reserved.
+# Copyright 2021 by generik at spreequalle.de. All rights reserved.
 # This file is released under the "JSON License Agreement". Please see the LICENSE
 # file that should have been included as part of this package.
 
@@ -12,7 +12,7 @@ import xml.etree.ElementTree as xml
 from pathlib import Path
 from github import Github, GithubException, UnknownObjectException, InputGitAuthor
 
-gh_repo = 'spreequalle/gentoo-binhost'
+gh_repo = 'ahnafhabib/gentoo-binhost'
 gh_token = '<your github access token>'
 gh_branch = os.environ['CHOST'] # use chost as git branch name
 gh_relName = gh_branch + '/' + os.environ['CATEGORY'] # create new github release for every category
