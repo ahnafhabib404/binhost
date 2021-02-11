@@ -1,4 +1,4 @@
-# gentoo binhost
+# Gentoo Linux Binary Host on GitHub
 
 Providing [gentoo](https://gentoo.org/) binary packages using [github](https://github.com/) infrastructure.
 
@@ -67,7 +67,7 @@ fi
 
 #### gh-upload.py
 
-Add the [/etc/portage/binhost/gh-upload.py](/etc/portage/binhost/gh-upload.py) script and add your github settings accordingly.
+Add the [/etc/portage/binhost/gh-upload.py](/etc/portage/binhost/gh-upload.py) script and add your github settings accordingly. (You may need to run "chmod +x" on this file)
 You need to create a [github access token](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line) that is able to access repository and create releases.
 
 ```python
