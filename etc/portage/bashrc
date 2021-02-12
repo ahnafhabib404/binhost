@@ -1,5 +1,7 @@
 #!/bin/env bash
 
+# For GitHub Gentoo Binhost
+
 if [[ ${EBUILD_PHASE} == 'postinst' ]]; then
   # FIXME come up with a more sophisticated approach to detect if binary package build is actually requested
   # commandline args like -B or --buildpkg-exclude and other conditionals are not supported right now.
